@@ -22,17 +22,18 @@ public class SurgeryTimer : MonoBehaviour
     {
         int minutes = Mathf.RoundToInt(ChronoTime / 60f);
         int seconds = Mathf.RoundToInt(ChronoTime % 60);
-        _timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        string time = string.Format("{0:00}:{1:00}", minutes, seconds);
+        _timeText.text = time;
     }
 
     public void StartChronometer()
     {
+        ChronoTime = 0;
         isMeasuringTime = true;
     }
 
     public void StopChronometer()
     {
         isMeasuringTime = false;
-        ChronoTime = 0;
     }
 }
