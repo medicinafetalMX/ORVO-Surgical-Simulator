@@ -53,8 +53,8 @@ public class WatchPatientInside : TaskData
     private void TurnOffScreens()
     {
         _mainScreen.color = new Color(_mainScreen.color.r,
-            _mainScreen.color.g, _mainScreen.color.b, 1f);          // regresar  a 0
+            _mainScreen.color.g, _mainScreen.color.b, 0f);
         _sideScreenTv.color = new Color(_sideScreenTv.color.r,
-            _sideScreenTv.color.g, _sideScreenTv.color.b, 1f);
+            _sideScreenTv.color.g, _sideScreenTv.color.b, 0f);
     }
 }
