@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 813fded930f19d742a3430388dd01388
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Zona Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d006d7e2e583246408dfc521cb6bfd4d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
