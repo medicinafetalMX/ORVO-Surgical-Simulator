@@ -2104,7 +2104,6 @@ GameObject:
   - component: {fileID: 150627041}
   - component: {fileID: 150627038}
   - component: {fileID: 150627036}
-  - component: {fileID: 150627035}
   m_Layer: 3
   m_Name: Scalpel
   m_TagString: Untagged
@@ -2112,19 +2111,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &150627035
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150627034}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0016538883, y: 0.05002028, z: 0.0033969108}
-  m_Center: {x: 0.00015454636, y: 0.009766017, z: 0.00012981538}
 --- !u!54 &150627036
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22339,6 +22325,7 @@ GameObject:
   - component: {fileID: 966414103}
   - component: {fileID: 966414108}
   - component: {fileID: 966414107}
+  - component: {fileID: 966414104}
   m_Layer: 3
   m_Name: Model
   m_TagString: Untagged
@@ -22360,6 +22347,19 @@ Transform:
   m_Father: {fileID: 150627040}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 257.674, y: 201.918, z: -124.80899}
+--- !u!65 &966414104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966414102}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.050029367, y: 0.002819998, z: 0.0050206175}
+  m_Center: {x: 0.00021155362, y: 0.00012756269, z: -0.00029546185}
 --- !u!23 &966414107
 MeshRenderer:
   m_ObjectHideFlags: 0

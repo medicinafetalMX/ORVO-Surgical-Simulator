@@ -14,7 +14,8 @@ public class BisturiActivator : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (!alreadyActivated && other.gameObject == _bisturi)
+        if (!alreadyActivated && 
+            (other.gameObject == _bisturi || other.transform.parent.gameObject == _bisturi))
         {
             _bisturi.SetActive(false);
             _bisturiLever.transform.LookAt(transform.position);
